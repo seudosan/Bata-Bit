@@ -1,3 +1,4 @@
 # Assets
 assets/*.png
 assets/*.svg
+styles/normalize.css
