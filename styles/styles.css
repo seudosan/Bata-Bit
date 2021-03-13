@@ -48,12 +48,16 @@ body {
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    width: 288px;
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
     margin: 36px 0 0 0;
 }
 .header__description {
     color: var(--soft-orange);
-    width: 288px;
+    min-width: 288px;
+    max-width: 900px;
+    width: 90%;
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 1.8rem;
@@ -94,7 +98,9 @@ body {
     margin-top: 59px;
 }
 .exchange__title {
-    width: 288px;
+    min-width: 288px;
+    max-width: 900px;
+    width: 90%;
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 2.6rem;
@@ -102,7 +108,9 @@ body {
     color: var(--warm-black);
 }
 .exchange__description {
-    width: 288px;
+    min-width: 288px;
+    max-width: 900px;
+    width: 90%;
     height: 54px;
     font-weight: 500;
     font-size: 1.4rem;
