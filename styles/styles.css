@@ -80,3 +80,32 @@ body {
     background-image: url('../assets/icons/keyboard-arrow-down.svg');
     background-position: center;
 }
+.coin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.coin__logo {
+    width: 195px;
+    height: 195px;
+    background-image: url('../assets/images/Bitcoin.png');
+    margin-top: 59px;
+}
+.coin__title {
+    width: 288px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin: 40px 0 0 0;
+    color: var(--warm-black);
+}
+.coin__description {
+    width: 288px;
+    height: 54px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin: 24px 0 0 0;
+    color: #757575;
+}
