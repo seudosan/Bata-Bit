@@ -143,34 +143,57 @@ body {
     border-spacing: 1px;
 }
 .currency-table__coin-name {
-    width: 50%;
+    width: 60%;
+    max-width: 60%;
     height: 40px;
+    position: relative;
     font-size: 1.6rem;
     line-height: 1.9rem;
     letter-spacing: -0.02rem;
-    font-family: inherit;
-    padding: 0 12px;
+    padding: 0 12px 0 42px;
     font-weight: 500;
     color: #B5B0AC;
     background-color: var(--just-white);
 }
 .currency-table__coin-value {
-    width: 50%;
+    width: 40%;
     height: 40px;
     position: relative;
     font-weight: 400;
     font-size: 1.4rem;
     padding: 0 12px;
-    margin: 1px;
     line-height: 1.7rem;
     letter-spacing: -0.02rem;
-    background-color: var(--just-white);
     color: #757575;
+    background-color: var(--just-white);
+}
+.currency-table__coin-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 12px;
+    top: calc(50% - 10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.currency-table__coin-icon--bitcoin-icon {
+    background-image: url('../assets/icons/bitcoin-icon.svg');
+}
+.currency-table__coin-icon--ethereum-icon {
+    background-image: url('../assets/icons/ethereum-icon.svg');
+}
+.currency-table__coin-icon--ripple-icon {
+    background-image: url('../assets/icons/ripple-icon.svg');
+}
+.currency-table__coin-icon--stellar-icon {
+    background-image: url('../assets/icons/stellar-icon.svg');
 }
 .currency-table__coin-value--up {
     position: absolute;
     top: calc(50% - 5px);
-    right: 16px;
+    right: 12px;
     width: 14px;
     height: 12px;
     background-image: url('../assets/icons/trending-up.svg');
@@ -180,7 +203,7 @@ body {
 .currency-table__coin-value--down {
     position: absolute;
     top: calc(50% - 5px);
-    right: 16px;
+    right: 12px;
     width: 14px;
     height: 12px;
     background-image: url('../assets/icons/trending-down.svg');
