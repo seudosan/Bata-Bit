@@ -162,6 +162,7 @@ body {
 .currency-table__coin-value {
     width: 50%;
     height: 40px;
+    position: relative;
     font-weight: 400;
     font-size: 1.4rem;
     padding: 0 12px;
@@ -171,3 +172,24 @@ body {
     background-color: var(--just-white);
     color: #757575;
 }
+.currency-table__coin-value--up {
+    position: absolute;
+    top: calc(50% - 5px);
+    right: 16px;
+    width: 14px;
+    height: 12px;
+    background-image: url('../assets/icons/trending-up.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.currency-table__coin-value--down {
+    position: absolute;
+    top: calc(50% - 5px);
+    right: 16px;
+    width: 14px;
+    height: 12px;
+    background-image: url('../assets/icons/trending-down.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
