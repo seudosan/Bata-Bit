@@ -200,18 +200,13 @@ body {
     border-bottom-right-radius: 8px;
 }
 .currency-table__last-update {
-    width: 173px;
-    padding: 8px;
-    margin: 18px auto 0 auto;
+    width: max-content;
+    padding: 8px 12px;
+    margin: 16px auto 0 auto;
     border-radius: 8px;
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
     font-size: 1.2rem;
-    font-style: normal;
     line-height: 1.5rem;
     color: var(--black);
     background-color: var(--soft-orange);
-}
-.currency-table__last-update-date {
-    font-weight: 500;
 }
