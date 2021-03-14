@@ -127,9 +127,6 @@ body {
     max-width: 300px;
     margin: 48px 0 0 0;
 }
-/* .currency-table__container {
-    width: 100%;
-} */
 .currency-table__title {
     font-size: 1.8rem;
     font-weight: 700;
@@ -144,8 +141,6 @@ body {
     text-align: start;
     margin: 12px 0 0 0;
     border-spacing: 1px;
-    border-radius: 12px;
-    overflow: hidden;
 }
 .currency-table__coin-name {
     width: 50%;
@@ -191,6 +186,18 @@ body {
     background-image: url('../assets/icons/trending-down.svg');
     background-position: center;
     background-repeat: no-repeat;
+}
+.currency-table__coin-name--top-left {
+    border-top-left-radius: 8px;
+}
+.currency-table__coin-name--bottom-left {
+    border-bottom-left-radius: 8px;
+}
+.currency-table__coin-value--top-right {
+    border-top-right-radius: 8px;
+}
+.currency-table__coin-value--bottom-right {
+    border-bottom-right-radius: 8px;
 }
 .currency-table__last-update {
     width: 173px;
