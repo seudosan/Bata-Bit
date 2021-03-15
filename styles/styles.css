@@ -125,7 +125,7 @@ body {
     width: 70%;
     min-width: 230px;
     max-width: 300px;
-    margin: 48px 0 64px 0;
+    margin: 48px 0;
 }
 .currency-table__title {
     font-size: 1.8rem;
@@ -296,4 +296,41 @@ body {
     line-height: 1.5rem;
     color: var(--black);
     background-color: var(--soft-blue);
+}
+.features {
+    position: relative;
+    padding: 64px 16px 48px 16px;
+    background-color: var(--warm-black);
+    display: flex;
+    flex-direction: column;
+}
+.features__icon {
+    position: absolute;
+    display: inline-block;
+    width: 42px;
+    height: 25px;
+    top: -12px;
+    right: calc(50% - 21px);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../assets/icons/batabit-icon.svg');
+}
+.features__description {
+    min-width: 288px;
+    text-align: center;
+}
+.features__title {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--just-white);
+    margin: 0;
+}
+.features__subtitle {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+    margin: 24px auto 16px auto;
 }
