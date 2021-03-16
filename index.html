@@ -21,7 +21,7 @@
         <img class="header__logo" src="./assets/images/batabit_logo.svg" alt="Batabit logo">
         <h1 class="header__title">La próxima revolución en el intercambio de criptomonedas.</h1>
         <p class="header__description">Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-        <a class="header__button" href="#">Conoce Nuestros Planes<span class="header__button-icon"></span></a>
+        <a class="header__button" href="#plans">Conoce Nuestros Planes<span class="header__button-icon"></span></a>
     </header>
     <main>
         <section class="exchange">
@@ -107,20 +107,33 @@
         <section class="wildcard">
             <p class="wildcard__title">Conócelo hoy.</p>
         </section>
-        <section class="plans">
+        <section class="plans" id="plans">
             <div class="plans__details">
                 <h3 class="plans__title">Escoge el plan que mejor se ajuste a ti.</h3>
                 <p class="plans__subtitle">Cualquier plan te da acceso completo a nuestra plataforma.</p>
             </div>
             <section class="plans__cards-container">
                 <article class="plan-card">
-                    <span class="plan-card__recommendation">Recomendado</span>
+                    <span class="plan-card__recommendation plan-card__recommendation--black">Recomendado</span>
                     <p class="plan-card__pay-type">Pago Anual</p>
-                    <p class="plan-card__price"><span class="plan-card__price-sign">$</span> 99</p>
+                    <p class="plan-card__price"><span class="plan-card__price-sign">$</span>99</p>
                     <p class="plan-card__description">*Ahorras $129 comparado al plan mensual.</p>
                     <a href="" class="plan-card__button">Escoger este<span class="plan-card__button-row-icon"></span></a>
                 </article>
-
+                <article class="plan-card">
+                    <span class="plan-card__recommendation plan-card__recommendation--blue">Popular</span>
+                    <p class="plan-card__pay-type">Pago Mensual</p>
+                    <p class="plan-card__price"><span class="plan-card__price-sign">$</span>19</p>
+                    <p class="plan-card__description">*Obtén acceso a todos nuestros beneficios.</p>
+                    <a href="" class="plan-card__button">Escoger este<span class="plan-card__button-row-icon"></span></a>
+                </article>
+                <article class="plan-card">
+                    <span class="plan-card__recommendation plan-card__recommendation--orange">Limitado</span>
+                    <p class="plan-card__pay-type">Life Time</p>
+                    <p class="plan-card__price"><span class="plan-card__price-sign">$</span>249</p>
+                    <p class="plan-card__description">*Aún quedan 567 cupos disponibles.</p>
+                    <a href="" class="plan-card__button">Escoger este<span class="plan-card__button-row-icon"></span></a>
+                </article>
             </section>
         </section>
     </main>
