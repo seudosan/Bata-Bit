@@ -298,8 +298,9 @@ body {
     background-color: var(--soft-blue);
 }
 .features {
+    width: 100%;
     position: relative;
-    padding: 64px 16px 32px 16px;
+    padding: 64px 0 32px 0;
     background-color: var(--warm-black);
     display: flex;
     flex-direction: column;
@@ -335,11 +336,14 @@ body {
     margin: 24px auto 16px auto;
 }
 .features__cards-container {
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .feature-card {
-    width: 28.8rem;
-    height: 15.2rem;
+    width: 288px;
     min-width: 288px;
     min-height: 152px;
     padding: 16px 20px 22px 16px;
@@ -383,4 +387,21 @@ body {
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 1.8rem;
+}
+.wildcard {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../assets/images/bitcoinbaby-x2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    text-align: center;
+}
+.wildcard__title {
+    color: var(--just-white);
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    padding: 64px 0 0 0;
+    margin: 0;
 }
