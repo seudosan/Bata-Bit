@@ -1,0 +1,6 @@
+.features__cards-container {
+    max-width: max-content;
+}
+.feature-card {
+    margin: 0 8px 32px 8px;
+}
